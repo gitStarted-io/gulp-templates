@@ -1,8 +1,7 @@
 var path = require('path');
 
-var rootDir = '../../';
-var src = path.resolve(rootDir, 'src');
-var dist = path.resolve(rootDir, 'dist');
+var src = path.resolve(__dirname, '../../src');
+var dist = path.resolve(__dirname, '../../dist');
 
 module.exports = {
 	src: src,

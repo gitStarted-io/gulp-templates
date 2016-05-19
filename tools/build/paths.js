@@ -15,14 +15,15 @@ module.exports = {
 	cssSrc: [
 		path.resolve(src, 'public/css') + '/**/*.css'
 	],
-	cssDist: path.resolve(dist, 'public/stylesheets'),
-	sassSrc: [
-		path.resolve(src, 'public/scss') + '/**/*.scss'
+	cssDist: path.resolve(dist, 'public/css'),
+	scssSrc: [
+		path.resolve(src, 'scss') + '/**/*.scss'
 	],
+	scssDist: path.resolve(dist, 'public/css'),
 	jsSrc: [
 		path.resolve(src, 'public/js') + '/**/*.js'
 	],
-	jsDist: path.resolve(dist, 'public/scripts'),
+	jsDist: path.resolve(dist, 'public/js'),
 	reactSrc: [
 		path.resolve(src, 'components/main.jsx')
 	],
